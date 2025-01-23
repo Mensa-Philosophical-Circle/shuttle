@@ -251,19 +251,18 @@
   resolved "https://registry.npmjs.org/@tomphttp/bare-client/-/bare-client-2.2.0-alpha.tgz"
   integrity sha512-xhcflOpwr92tkpp8SoDhB3nK3LHMBIjx+vgow37XobQew2k0/mXSxmaU7BsDFpOIa1CcLCEsR8gWn0v7Cy9+7Q==
 
-"@tomphttp/bare-server-node@^2.0.1":
-  version "2.0.1"
-  resolved "https://registry.npmjs.org/@tomphttp/bare-server-node/-/bare-server-node-2.0.1.tgz"
-  integrity sha512-L42TC/AldYRFBRZSxhkI0FC5TL8EC/NAsepNC/cWYTTiHQJ7mGg/vdTqNz8ShTYHr6LTHYkuD3/81nhX55SYtA==
+"@tomphttp/bare-server-node@^2.0.1", "@tomphttp/bare-server-node@^2.0.5":
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/@tomphttp/bare-server-node/-/bare-server-node-2.0.5.tgz#0108a3d7187179a9c3662c8486c91e66595645ee"
+  integrity sha512-j3355H1hsrsFCkFVePm7ccuUkjQq+Hgj/wnLmCQa2FzBh9B6+zRkd66kFHaYZ4PAOjSX5wHTKQuXVJrnb7GBxg==
   dependencies:
     async-exit-hook "^2.0.1"
     commander "^10.0.1"
     dotenv "^16.0.3"
-    headers-polyfill "^3.1.2"
     http-errors "^2.0.0"
-    ipaddr.js "^2.0.1"
+    ipaddr.js "^2.1.0"
     source-map-support "^0.5.21"
-    ws "^8.13.0"
+    ws "^8.18.0"
 
 "@types/estree@0.0.46":
   version "0.0.46"
@@ -1028,11 +1027,6 @@ hasown@^2.0.2:
   dependencies:
     function-bind "^1.1.2"
 
-headers-polyfill@^3.1.2:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/headers-polyfill/-/headers-polyfill-3.3.0.tgz#67c6ef7b72d4c8cac832ad5936f5b3a56e7b705a"
-  integrity sha512-5e57etwBpNcDc0b6KCVWEh/Ro063OxPvzVimUdM0/tsYM/T7Hfy3kknIGj78SFTOhNd8AZY41U8mOHoO4LzmIQ==
-
 http-errors@2.0.0, http-errors@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npmjs.org/http-errors/-/http-errors-2.0.0.tgz"
@@ -1097,7 +1091,7 @@ ipaddr.js@1.9.1:
   resolved "https://registry.npmjs.org/ipaddr.js/-/ipaddr.js-1.9.1.tgz"
   integrity sha512-0KI/607xoxSToH7GjN1FfSbLoU0+btTicjsQSWQlh/hZykN8KpmMf7uYwPW3R+akZ6R/w18ZlXSHBYXiYUPO3g==
 
-ipaddr.js@^2.0.1:
+ipaddr.js@^2.1.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/ipaddr.js/-/ipaddr.js-2.2.0.tgz#d33fa7bac284f4de7af949638c9d68157c6b92e8"
   integrity sha512-Ag3wB2o37wslZS19hZqorUnrnzSkpOVy+IiiDEiTqNubEYpYuHWIf6K4psgN2ZWKExS4xhVCrRVfb/wfW8fWJA==
@@ -1913,10 +1907,10 @@ wrappy@1:
   resolved "https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz"
   integrity sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==
 
-ws@^8.13.0:
-  version "8.14.1"
-  resolved "https://registry.npmjs.org/ws/-/ws-8.14.1.tgz"
-  integrity sha512-4OOseMUq8AzRBI/7SLMUwO+FEDnguetSk7KMb1sHwvF2w2Wv5Hoj0nlifx8vtGsftE/jWHojPy8sMMzYLJ2G/A==
+ws@^8.18.0:
+  version "8.18.0"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-8.18.0.tgz#0d7505a6eafe2b0e712d232b42279f53bc289bbc"
+  integrity sha512-8VbfWfHLbbwu3+N6OKsOMpBdT4kXPDDB9cJk2bJ6mh9ucxdlnNvH1e+roYkKmN9Nxw2yjz7VzeO9oOz2zJ04Pw==
 
 xtend@~4.0.1:
   version "4.0.2"
